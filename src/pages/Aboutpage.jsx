@@ -4,8 +4,6 @@ export default function Aboutpage() {
     return (
         <>
             <header>
-
-                <AppNav />
             </header>
             <main className="d-flex flex-column justify-content-center align-items-center text-center vh-100 bg-light">
                 <div className="container">
@@ -17,7 +15,7 @@ export default function Aboutpage() {
                     </p>
                 </div>
             </main>
-            <AppFooter />
+
 
         </>
     )

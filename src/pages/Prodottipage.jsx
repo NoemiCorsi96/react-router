@@ -20,7 +20,7 @@ export default function Prodottipage() {
         <>
             <header>
 
-                <AppNav />
+
             </header>
             <main className="container py-4">
                 <h1>Prodotti</h1>
@@ -38,7 +38,7 @@ export default function Prodottipage() {
                     ))}
                 </div>
             </main>
-            <AppFooter />
+
         </>
     )
 }
