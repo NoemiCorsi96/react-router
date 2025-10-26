@@ -4,7 +4,7 @@ export default function Aboutpage() {
     return (
         <>
             <header>
-                Logo
+
                 <AppNav />
             </header>
             <main>

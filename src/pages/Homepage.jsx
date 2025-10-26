@@ -5,7 +5,7 @@ export default function Homepage() {
     return (
         <>
             <header>
-                Logo
+
                 <AppNav />
             </header>
             <main>

@@ -4,7 +4,7 @@ export default function Prodottipage() {
     return (
         <>
             <header>
-                Logo
+
                 <AppNav />
             </header>
             <main>
