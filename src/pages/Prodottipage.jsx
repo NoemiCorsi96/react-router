@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom"
 import AppNav from "../components/AppNav";
 import AppFooter from "../components/AppFooter";
 export default function Prodottipage() {
@@ -28,7 +29,10 @@ export default function Prodottipage() {
                     {products.map((product) => (
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={product.id}>
                             <div className="card h-100 text-center">
-                                <img src={product.image} className="card-img-top p-3" />
+                                <Link to={`/prodotti/${product.id}`}>
+                                    <img src={product.image} className="card-img-top p-3" />
+                                </Link>
+
                                 <div className="card-body">
                                     <h5 className="card-title">{product.title}</h5>
                                     <p className="card-text fw-bold">{product.price} €</p>
